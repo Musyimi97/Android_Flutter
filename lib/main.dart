@@ -8,6 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        
+        accentColor:Colors.teal,
+        primarySwatch: Colors.blueGrey
+        
+      ),
       home: Scaffold(
           appBar: AppBar(
             title: Text('EasyList'),
